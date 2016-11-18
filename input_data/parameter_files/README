@@ -1,0 +1,3 @@
+These data are essentially the same as that in 'simulation_paramters_foreach_allele', but each line in the file within the file in the aformentioned directory is now its own file in this directory. These data are meant to provide parameter values to run a Wright-Fisher simulation for each of the alleles in the data. There is one file for each allele so that we can easily run a large array job on the cluster (where one node runs a set of sims for one allele). These simulations will be carried out by 'create_HIV_WF_neutral_sim_database_cluster.py'. And, these data were created by 'get_sim_parameters_foreach_allele_cluster.py'.
+
+UPDATE: These data were made from the latest data from Jason (4/28/2016)
